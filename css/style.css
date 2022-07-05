@@ -1,1 +1,14 @@
-* {}
+/* Css reset */
+* {
+    background-color: #f4f8f9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* end Css reset */
+
+/* Intestazione e logo */
+.sfondo {
+    background-color: white;
+}
+
+/* end Intestazione e logo */
