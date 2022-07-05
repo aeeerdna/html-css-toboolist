@@ -1,14 +1,30 @@
-/* Css reset */
-* {
+/* Impostazioni pagina */
+body {
     background-color: #f4f8f9;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
 }
 
-/* end Css reset */
+/* end Impostazioni pagina */
 
 /* Intestazione e logo */
 .sfondo {
-    background-color: white;
+    background-color: red;
+    height: 100px;
+}
+
+.sfondo img {
+    float: left;
+
+}
+
+.sfondo h1 {
+    position: relative;
+    left: 10px;
 }
 
 /* end Intestazione e logo */
+
+/* Lista cose da fare */
+
+/* end Lista cose da fare */
