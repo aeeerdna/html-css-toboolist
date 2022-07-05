@@ -9,12 +9,14 @@ body {
 
 /* Intestazione e logo */
 .sfondo {
-    background-color: red;
-    height: 100px;
+    background-color: white;
+    height: 80px;
+    margin-top: 0px;
 }
 
 .sfondo img {
     float: left;
+    padding-left: 10px;
 
 }
 
@@ -26,20 +28,54 @@ body {
 /* end Intestazione e logo */
 
 /* Lista cose da fare */
-main {}
+main {
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
 
+}
+
+/* Tasti interattivi */
 #sx {
     color: rgb(255, 255, 255);
     background-color: aqua;
+    border-radius: 15px;
+    border-color: aqua;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    margin: 10px 10px;
 }
 
 #dx {
     color: rgba(25, 25, 25, 0.1);
+    border-radius: 15px;
+    border-color: rgba(25, 25, 25, 0.1);
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    margin: 10px 10px;
 }
 
+hr {
+    border-top: 1px solid white;
+}
+
+/* end Tasti interattivi */
+
+/* Lista */
 .elenco {
     font-size: 15px;
     font-weight: bold;
 }
+
+.spaziatura {
+    line-height: 50px;
+}
+
+/* end Lista */
 
 /* end Lista cose da fare */
