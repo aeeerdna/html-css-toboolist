@@ -26,5 +26,20 @@ body {
 /* end Intestazione e logo */
 
 /* Lista cose da fare */
+main {}
+
+#sx {
+    color: rgb(255, 255, 255);
+    background-color: aqua;
+}
+
+#dx {
+    color: rgba(25, 25, 25, 0.1);
+}
+
+.elenco {
+    font-size: 15px;
+    font-weight: bold;
+}
 
 /* end Lista cose da fare */
