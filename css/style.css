@@ -51,11 +51,52 @@ header {
     border-top-right-radius: 5px;
 }
 
+.formattazione-pulsanti {
+    border-radius: 15px;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 10px;
+    margin: 5px 5px;
+}
+
+#sx {
+    color: rgb(255, 255, 255);
+    background-color: aqua;
+    border-color: aqua;
+}
+
+#dx {
+    color: rgba(25, 25, 25, 0.1);
+    border-color: rgba(25, 25, 25, 0.1);
+}
+
 #lista {
     margin-bottom: 0px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 10px 0px;
+}
+
+.titoli-liste {
+    font-size: 1.2rem;
+
+}
+
+.titoli-liste::before {
+    content: "\25BC";
+    font-size: 0.9rem;
+    padding-right: 1px;
+}
+
+
 
 /* end Lista cose da fare */
 
