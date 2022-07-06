@@ -96,7 +96,50 @@ li {
     padding-right: 1px;
 }
 
+.contenuto {
+    display: inline-block;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    font-size: 0.7rem;
+}
 
+.cerchio {
+    border-radius: 50%;
+    font-size: 0.5rem;
+    margin-right: 5px;
+    text-align: center;
+    border: 1px solid;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+.spunta {
+    border-color: green;
+}
+
+.spunta::after {
+    content: "\2713";
+    color: green;
+    font-size: 1.0rem;
+}
+
+.croce {
+    border-color: red;
+}
+
+.croce::after {
+    content: "\2573";
+    color: red;
+    font-size: 0.8rem;
+}
+
+.bg-green {
+    background-color: green;
+}
 
 /* end Lista cose da fare */
 
