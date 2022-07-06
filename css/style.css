@@ -136,8 +136,28 @@ li {
     font-size: 0.8rem;
 }
 
+.bg-blue {
+    background-color: rgb(9, 9, 231);
+}
+
+.bg-purple {
+    background-color: #8A2BE2;
+}
+
 .bg-green {
     background-color: green;
+}
+
+.bg-pink {
+    background-color: rgba(245, 9, 233, 0.7);
+}
+
+.bg-orange {
+    background-color: orange;
+}
+
+.bg-yellow {
+    background-color: yellow;
 }
 
 /* end Lista cose da fare */
