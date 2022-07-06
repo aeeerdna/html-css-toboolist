@@ -20,7 +20,56 @@ header {
     margin-top: 0px;
 }
 
-/* 
+#logo {
+    vertical-align: middle;
+}
+
+#titolo {
+    display: inline;
+    vertical-align: middle;
+}
+
+/* end Intestazione e logo */
+
+
+/* Lista cose da fare */
+
+.container {
+    margin: 60px auto 20px;
+    max-width: 900px;
+}
+
+.sezione-centrale {
+    margin: 5px;
+    background-color: white;
+    padding: 20px;
+}
+
+#pulsanti {
+    margin-bottom: 1px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#lista {
+    margin-bottom: 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+/* end Lista cose da fare */
+
+
+
+
+
+
+
+
+
+
+
+/****** ESERCIZIO FATTO DA ME
 E` giusto ma non si usa più.
 .sfondo img {
     float: left;
@@ -31,11 +80,8 @@ E` giusto ma non si usa più.
 .sfondo h1 {
     position: relative;
     left: 10px;
-} */
+}
 
-/* end Intestazione e logo */
-
-/* Lista cose da fare */
 main {
     background-color: white;
     margin-top: 20px;
@@ -44,7 +90,6 @@ main {
 
 }
 
-/* Tasti interattivi */
 #sx {
     color: rgb(255, 255, 255);
     background-color: aqua;
@@ -72,9 +117,6 @@ hr {
     border-top: 1px solid white;
 }
 
-/* end Tasti interattivi */
-
-/* Lista */
 .elenco {
     font-size: 15px;
     font-weight: bold;
@@ -84,6 +126,4 @@ hr {
     line-height: 50px;
 }
 
-/* end Lista */
-
-/* end Lista cose da fare */
+******/
